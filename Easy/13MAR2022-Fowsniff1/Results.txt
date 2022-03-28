@@ -1,0 +1,150 @@
+┌──(kali㉿kali)-[~/THM/Fowsniff1]
+└─$ rustscan -a 10.10.212.91
+.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
+| {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
+| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |
+`-' `-'`-----'`----'  `-'  `----'  `---' `-'  `-'`-' `-'
+The Modern Day Port Scanner.
+________________________________________
+: https://discord.gg/GFrQsGy           :
+: https://github.com/RustScan/RustScan :
+ --------------------------------------
+Real hackers hack time ⌛
+
+[~] The config file is expected to be at "/home/kali/.rustscan.toml"
+[!] File limit is lower than default batch size. Consider upping with --ulimit. May cause harm to sensitive servers
+[!] Your file limit is very small, which negatively impacts RustScan's speed. Use the Docker image, or up the Ulimit with '--ulimit 5000'. 
+Open 10.10.212.91:22
+Open 10.10.212.91:80
+Open 10.10.212.91:143
+Open 10.10.212.91:110
+[~] Starting Script(s)
+[>] Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+[~] Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-13 04:59 EDT
+Initiating Ping Scan at 04:59
+Scanning 10.10.212.91 [2 ports]
+Completed Ping Scan at 04:59, 0.24s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 04:59
+Completed Parallel DNS resolution of 1 host. at 04:59, 0.01s elapsed
+DNS resolution of 1 IPs took 0.01s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 04:59
+Scanning 10.10.212.91 [4 ports]
+Discovered open port 22/tcp on 10.10.212.91
+Discovered open port 110/tcp on 10.10.212.91
+Discovered open port 80/tcp on 10.10.212.91
+Discovered open port 143/tcp on 10.10.212.91
+Completed Connect Scan at 04:59, 0.25s elapsed (4 total ports)
+Nmap scan report for 10.10.212.91
+Host is up, received syn-ack (0.24s latency).
+Scanned at 2022-03-13 04:59:07 EDT for 1s
+
+PORT    STATE SERVICE REASON
+22/tcp  open  ssh     syn-ack
+80/tcp  open  http    syn-ack
+110/tcp open  pop3    syn-ack
+143/tcp open  imap    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.54 seconds
+
+
+ ##############################################
+
+
+┌──(kali㉿kali)-[~/THM/Fowsniff1]
+└─$ nmap  -A -p 22,80,110,143 -sC  -sV 10.10.212.91
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-13 05:05 EDT
+Nmap scan report for 10.10.212.91
+Host is up (0.23s latency).
+
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 90:35:66:f4:c6:d2:95:12:1b:e8:cd:de:aa:4e:03:23 (RSA)
+|   256 53:9d:23:67:34:cf:0a:d5:5a:9a:11:74:bd:fd:de:71 (ECDSA)
+|_  256 a2:8f:db:ae:9e:3d:c9:e6:a9:ca:03:b1:d7:1b:66:83 (ED25519)
+80/tcp  open  http    Apache httpd 2.4.18 ((Ubuntu))
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-title: Fowsniff Corp - Delivering Solutions
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+110/tcp open  pop3    Dovecot pop3d
+|_pop3-capabilities: RESP-CODES USER UIDL PIPELINING AUTH-RESP-CODE CAPA SASL(PLAIN) TOP
+143/tcp open  imap    Dovecot imapd
+|_imap-capabilities: listed capabilities LOGIN-REFERRALS LITERAL+ Pre-login OK SASL-IR ID more post-login ENABLE have AUTH=PLAINA0001 IDLE IMAP4rev1
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.88 seconds
+
+
+ ##############################################
+
+
+
+┌──(kali㉿kali)-[~/THM/Fowsniff1]
+└─$ sudo gobuster dir --wordlist=/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http://10.10.212.91 -t=250 2> /dev/null 
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.212.91
+[+] Method:                  GET
+[+] Threads:                 250
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/03/13 05:04:20 Starting gobuster in directory enumeration mode
+===============================================================
+/assets               (Status: 301) [Size: 313] [--> http://10.10.212.91/assets/]
+/images               (Status: 301) [Size: 313] [--> http://10.10.212.91/images/]
+/server-status        (Status: 403) [Size: 300]                                  
+===============================================================
+2022/03/13 05:08:20 Finished
+===============================================================
+                                                                                                                                                    
+┌──(kali㉿kali)-[~/THM/Fowsniff1]
+└─$ sudo gobuster vhost --wordlist=/usr/share/wordlists/SecLists/SecLists/Discovery/DNS/subdomains-top1million-110000.txt -u http://10.10.212.91 -t=250 2> /dev/null
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:          http://10.10.212.91
+[+] Method:       GET
+[+] Threads:      250
+[+] Wordlist:     /usr/share/wordlists/SecLists/SecLists/Discovery/DNS/subdomains-top1million-110000.txt
+[+] User Agent:   gobuster/3.1.0
+[+] Timeout:      10s
+===============================================================
+2022/03/13 05:12:31 Starting gobuster in VHOST enumeration mode
+===============================================================
+===============================================================
+2022/03/13 05:17:25 Finished
+===============================================================
+                                                                                                                                                    
+┌──(kali㉿kali)-[~/THM/Fowsniff1]
+└─$ sudo gobuster dir --wordlist=/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http://10.10.212.91 -x php,html,epub -t=250 2> /dev/null 
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.212.91
+[+] Method:                  GET
+[+] Threads:                 250
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              php,html,epub
+[+] Timeout:                 10s
+===============================================================
+2022/03/13 05:19:16 Starting gobuster in directory enumeration mode
+===============================================================
+/images               (Status: 301) [Size: 313] [--> http://10.10.212.91/images/]
+/index.html           (Status: 200) [Size: 2629]                                 
+/assets               (Status: 301) [Size: 313] [--> http://10.10.212.91/assets/]
+
+
+

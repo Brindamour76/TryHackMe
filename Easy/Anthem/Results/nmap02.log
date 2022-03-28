@@ -1,0 +1,25 @@
+# Nmap 7.92 scan initiated Thu Mar 17 10:49:49 2022 as: nmap -sC -sV -A -p 80,3389,6500,6501 -oN Results/nmap02.log 10.10.67.15
+Nmap scan report for 10.10.67.15
+Host is up (0.23s latency).
+
+PORT     STATE    SERVICE       VERSION
+80/tcp   open     http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3389/tcp open     ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: WIN-LU09299160F
+|   NetBIOS_Domain_Name: WIN-LU09299160F
+|   NetBIOS_Computer_Name: WIN-LU09299160F
+|   DNS_Domain_Name: WIN-LU09299160F
+|   DNS_Computer_Name: WIN-LU09299160F
+|   Product_Version: 10.0.17763
+|_  System_Time: 2022-03-17T14:50:11+00:00
+|_ssl-date: 2022-03-17T14:51:21+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=WIN-LU09299160F
+| Not valid before: 2022-03-16T14:44:59
+|_Not valid after:  2022-09-15T14:44:59
+6500/tcp filtered boks
+6501/tcp filtered boks_servc
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Mar 17 10:51:21 2022 -- 1 IP address (1 host up) scanned in 92.07 seconds

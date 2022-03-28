@@ -1,0 +1,270 @@
+[leonard@ip-10-10-101-34 ~]$ hostname
+ip-10-10-101-34
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ uname -a
+Linux ip-10-10-101-34 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ cat /proc/version
+Linux version 3.10.0-1160.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Mon Oct 19 16:18:59 UTC 2020
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ cat /etx/issue
+cat: /etx/issue: No such file or directory
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ cat /etc/issue
+\S
+Kernel \r on an \m
+
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ env
+XDG_SESSION_ID=1
+HOSTNAME=ip-10-10-101-34
+SELINUX_ROLE_REQUESTED=
+TERM=xterm-256color
+SHELL=/bin/bash
+HISTSIZE=1000
+TMPDIR=/tmp/leonard
+SSH_CLIENT=10.9.2.34 58540 22
+PERL5LIB=/home/leonard/perl5/lib/perl5:
+SELINUX_USE_CURRENT_RANGE=
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+PERL_MB_OPT=--install_base /home/leonard/perl5
+SSH_TTY=/dev/pts/0
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=leonard
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+CASTOR_HOME=/castor/cern.ch/user/l/leonard
+MAIL=/var/spool/mail/leonard
+PATH=/home/leonard/scripts:/usr/sue/bin:/usr/lib64/qt-3.3/bin:/home/leonard/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/home/leonard/.local/bin:/home/leonard/bin
+PWD=/home/leonard
+EDITOR=/bin/nano -w
+LANG=en_US.UTF-8
+QT_GRAPHICSSYSTEM=native
+KDEDIRS=/usr
+SELINUX_LEVEL_REQUESTED=
+HISTCONTROL=ignoredups
+SHLVL=1
+HOME=/home/leonard
+PERL_LOCAL_LIB_ROOT=:/home/leonard/perl5
+LOGNAME=leonard
+QTLIB=/usr/lib64/qt-3.3/lib
+XDG_DATA_DIRS=/home/leonard/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+SSH_CONNECTION=10.9.2.34 58540 10.10.101.34 22
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+XDG_RUNTIME_DIR=/run/user/1000
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+PERL_MM_OPT=INSTALL_BASE=/home/leonard/perl5
+_=/usr/bin/env
+OLDPWD=/home/leonard/perl5
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ sudo -l
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for leonard: 
+Sorry, user leonard may not run sudo on ip-10-10-101-34.
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ id
+uid=1000(leonard) gid=1000(leonard) groups=1000(leonard) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+pegasus:x:66:65:tog-pegasus OpenPegasus WBEM/CIM services:/var/lib/Pegasus:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+colord:x:998:995:User for colord:/var/lib/colord:/sbin/nologin
+unbound:x:997:994:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+libstoragemgmt:x:996:993:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+saslauth:x:995:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+gluster:x:994:992:GlusterFS daemons:/run/gluster:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+setroubleshoot:x:993:990::/var/lib/setroubleshoot:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+chrony:x:992:987::/var/lib/chrony:/sbin/nologin
+saned:x:991:986:SANE scanner daemon user:/usr/share/sane:/sbin/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+sssd:x:990:984:User for sssd:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+geoclue:x:989:983:User for geoclue:/var/lib/geoclue:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+gnome-initial-setup:x:988:982::/run/gnome-initial-setup/:/sbin/nologin
+pcp:x:987:981:Performance Co-Pilot:/var/lib/pcp:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+oprofile:x:16:16:Special user account to be used by OProfile:/var/lib/oprofile:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+leonard:x:1000:1000:leonard:/home/leonard:/bin/bash
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+missy:x:1001:1001::/home/missy:/bin/bash
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ cat /etc/shadow
+cat: /etc/shadow: Permission denied
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ cat /etc/passwd | grep home
+leonard:x:1000:1000:leonard:/home/leonard:/bin/bash
+missy:x:1001:1001::/home/missy:/bin/bash
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ find / -type f -perm -04000 -ls 2>/dev/null
+16779966   40 -rwsr-xr-x   1 root     root        37360 Aug 20  2019 /usr/bin/base64
+17298702   60 -rwsr-xr-x   1 root     root        61320 Sep 30  2020 /usr/bin/ksu
+17261777   32 -rwsr-xr-x   1 root     root        32096 Oct 30  2018 /usr/bin/fusermount
+17512336   28 -rwsr-xr-x   1 root     root        27856 Apr  1  2020 /usr/bin/passwd
+17698538   80 -rwsr-xr-x   1 root     root        78408 Aug  9  2019 /usr/bin/gpasswd
+17698537   76 -rwsr-xr-x   1 root     root        73888 Aug  9  2019 /usr/bin/chage
+17698541   44 -rwsr-xr-x   1 root     root        41936 Aug  9  2019 /usr/bin/newgrp
+17702679  208 ---s--x---   1 root     stapusr    212080 Oct 13  2020 /usr/bin/staprun
+17743302   24 -rws--x--x   1 root     root        23968 Sep 30  2020 /usr/bin/chfn
+17743352   32 -rwsr-xr-x   1 root     root        32128 Sep 30  2020 /usr/bin/su
+17743305   24 -rws--x--x   1 root     root        23880 Sep 30  2020 /usr/bin/chsh
+17831141 2392 -rwsr-xr-x   1 root     root      2447304 Apr  1  2020 /usr/bin/Xorg
+17743338   44 -rwsr-xr-x   1 root     root        44264 Sep 30  2020 /usr/bin/mount
+17743356   32 -rwsr-xr-x   1 root     root        31984 Sep 30  2020 /usr/bin/umount
+17812176   60 -rwsr-xr-x   1 root     root        57656 Aug  9  2019 /usr/bin/crontab
+17787689   24 -rwsr-xr-x   1 root     root        23576 Apr  1  2020 /usr/bin/pkexec
+18382172   52 -rwsr-xr-x   1 root     root        53048 Oct 30  2018 /usr/bin/at
+20386935  144 ---s--x--x   1 root     root       147336 Sep 30  2020 /usr/bin/sudo
+34469385   12 -rwsr-xr-x   1 root     root        11232 Apr  1  2020 /usr/sbin/pam_timestamp_check
+34469387   36 -rwsr-xr-x   1 root     root        36272 Apr  1  2020 /usr/sbin/unix_chkpwd
+36070283   12 -rwsr-xr-x   1 root     root        11296 Oct 13  2020 /usr/sbin/usernetctl
+35710927   40 -rws--x--x   1 root     root        40328 Aug  9  2019 /usr/sbin/userhelper
+38394204  116 -rwsr-xr-x   1 root     root       117432 Sep 30  2020 /usr/sbin/mount.nfs
+958368   16 -rwsr-xr-x   1 root     root        15432 Apr  1  2020 /usr/lib/polkit-1/polkit-agent-helper-1
+37709347   12 -rwsr-xr-x   1 root     root        11128 Oct 13  2020 /usr/libexec/kde4/kpac_dhcp_helper
+51455908   60 -rwsr-x---   1 root     dbus        57936 Sep 30  2020 /usr/libexec/dbus-1/dbus-daemon-launch-helper
+17836404   16 -rwsr-xr-x   1 root     root        15448 Apr  1  2020 /usr/libexec/spice-gtk-x86_64/spice-client-glib-usb-acl-helper
+18393221   16 -rwsr-xr-x   1 root     root        15360 Oct  1  2020 /usr/libexec/qemu-bridge-helper
+37203442  156 -rwsr-x---   1 root     sssd       157872 Oct 15  2020 /usr/libexec/sssd/krb5_child
+37203771   84 -rwsr-x---   1 root     sssd        82448 Oct 15  2020 /usr/libexec/sssd/ldap_child
+37209171   52 -rwsr-x---   1 root     sssd        49592 Oct 15  2020 /usr/libexec/sssd/selinux_child
+37209165   28 -rwsr-x---   1 root     sssd        27792 Oct 15  2020 /usr/libexec/sssd/proxy_child
+18270608   16 -rwsr-sr-x   1 abrt     abrt        15344 Oct  1  2020 /usr/libexec/abrt-action-install-debuginfo-to-abrt-cache
+18535928   56 -rwsr-xr-x   1 root     root        53776 Mar 18  2020 /usr/libexec/flatpak-bwrap
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ cat /etc/crontab
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+
+# For details see man 4 crontabs
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
+
+###################################################################################################
+
+[leonard@ip-10-10-101-34 ~]$ LFILE=/etc/shadow
+[leonard@ip-10-10-101-34 ~]$ base64 "$LFILE" | base64 --decode
+root:$6$DWBzMoiprTTJ4gbW$g0szmtfn3HYFQweUPpSUCgHXZLzVii5o6PM0Q2oMmaDD9oGUSxe1yvKbnYsaSYHrUEQXTjIwOW/yrzV5HtIL51::0:99999:7:::
+bin:*:18353:0:99999:7:::
+daemon:*:18353:0:99999:7:::
+adm:*:18353:0:99999:7:::
+lp:*:18353:0:99999:7:::
+sync:*:18353:0:99999:7:::
+shutdown:*:18353:0:99999:7:::
+halt:*:18353:0:99999:7:::
+mail:*:18353:0:99999:7:::
+operator:*:18353:0:99999:7:::
+games:*:18353:0:99999:7:::
+ftp:*:18353:0:99999:7:::
+nobody:*:18353:0:99999:7:::
+pegasus:!!:18785::::::
+systemd-network:!!:18785::::::
+dbus:!!:18785::::::
+polkitd:!!:18785::::::
+colord:!!:18785::::::
+unbound:!!:18785::::::
+libstoragemgmt:!!:18785::::::
+saslauth:!!:18785::::::
+rpc:!!:18785:0:99999:7:::
+gluster:!!:18785::::::
+abrt:!!:18785::::::
+postfix:!!:18785::::::
+setroubleshoot:!!:18785::::::
+rtkit:!!:18785::::::
+pulse:!!:18785::::::
+radvd:!!:18785::::::
+chrony:!!:18785::::::
+saned:!!:18785::::::
+apache:!!:18785::::::
+qemu:!!:18785::::::
+ntp:!!:18785::::::
+tss:!!:18785::::::
+sssd:!!:18785::::::
+usbmuxd:!!:18785::::::
+geoclue:!!:18785::::::
+gdm:!!:18785::::::
+rpcuser:!!:18785::::::
+nfsnobody:!!:18785::::::
+gnome-initial-setup:!!:18785::::::
+pcp:!!:18785::::::
+sshd:!!:18785::::::
+avahi:!!:18785::::::
+oprofile:!!:18785::::::
+tcpdump:!!:18785::::::
+leonard:$6$JELumeiiJFPMFj3X$OXKY.N8LDHHTtF5Q/pTCsWbZtO6SfAzEQ6UkeFJy.Kx5C9rXFuPr.8n3v7TbZEttkGKCVj50KavJNAm7ZjRi4/::0:99999:7:::
+mailnull:!!:18785::::::
+smmsp:!!:18785::::::
+nscd:!!:18785::::::
+missy:$6$BjOlWE21$HwuDvV1iSiySCNpA3Z9LxkxQEqUAdZvObTxJxMoCp/9zRVCi6/zrlMlAQPAxfwaD2JCUypk4HaNzI3rPVqKHb/:18785:0:99999:7:::
+
+###################################################################################################
+

@@ -1,0 +1,7 @@
+200      GET       25l       69w      612c http://10.10.53.218/
+200      GET       25l       69w      612c http://10.10.53.218/index.html
+200      GET        3l        5w       43c http://10.10.53.218/robots.txt
+301      GET        7l       11w      169c http://10.10.53.218/hidden => http://10.10.53.218/hidden/
+200      GET       18l       32w      390c http://10.10.53.218/hidden/index.html
+301      GET        7l       11w      169c http://10.10.53.218/hidden/whatever => http://10.10.53.218/hidden/whatever/
+200      GET       21l       35w      435c http://10.10.53.218/hidden/whatever/index.html

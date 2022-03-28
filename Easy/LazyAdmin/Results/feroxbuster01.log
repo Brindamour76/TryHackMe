@@ -1,0 +1,47 @@
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.6.1
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://10.10.214.102
+ 🚀  Threads               │ 50
+ 📖  Wordlist              │ /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt
+ 👌  Status Codes          │ [200, 204, 301, 302, 307, 308, 401, 403, 405, 500]
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.6.1
+ 💉  Config File           │ /etc/feroxbuster/ferox-config.toml
+ 💲  Extensions            │ [php, pdf, txt, epub, html, cgi, css]
+ 🏁  HTTP methods          │ [GET]
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+200      GET      375l      968w    11321c http://10.10.214.102/
+403      GET        9l       28w      278c http://10.10.214.102/.php
+403      GET        9l       28w      278c http://10.10.214.102/.html
+301      GET        9l       28w      316c http://10.10.214.102/content => http://10.10.214.102/content/
+301      GET        9l       28w      319c http://10.10.214.102/content/js => http://10.10.214.102/content/js/
+200      GET      375l      968w    11321c http://10.10.214.102/index.html
+301      GET        9l       28w      320c http://10.10.214.102/content/inc => http://10.10.214.102/content/inc/
+301      GET        9l       28w      327c http://10.10.214.102/content/attachment => http://10.10.214.102/content/attachment/
+200      GET      281l     2496w    15410c http://10.10.214.102/content/license.txt
+301      GET        9l       28w      319c http://10.10.214.102/content/as => http://10.10.214.102/content/as/
+301      GET        9l       28w      322c http://10.10.214.102/content/as/js => http://10.10.214.102/content/as/js/
+403      GET        9l       28w      278c http://10.10.214.102/content/.php
+403      GET        9l       28w      278c http://10.10.214.102/content/.html
+301      GET        9l       28w      323c http://10.10.214.102/content/as/lib => http://10.10.214.102/content/as/lib/
+200      GET      814l     1290w    16226c http://10.10.214.102/content/as/site.css
+200      GET      114l      252w     3678c http://10.10.214.102/content/as/index.php
+200      GET       50l       90w      752c http://10.10.214.102/content/as/tinymce.css
+403      GET        9l       28w      278c http://10.10.214.102/server-status
+200      GET      497l     2326w    18013c http://10.10.214.102/content/changelog.txt
+[####################] - 50m  2160000/2160000 0s      found:19      errors:54429  
+[####################] - 47m   240000/240000  83/s    http://10.10.214.102 
+[####################] - 47m   240000/240000  84/s    http://10.10.214.102/ 
+[####################] - 47m   240000/240000  83/s    http://10.10.214.102/content 
+[####################] - 48m   240000/240000  83/s    http://10.10.214.102/content/js 
+[####################] - 8s    240000/240000  0/s     http://10.10.214.102/content/inc => Directory listing (add -e to scan)
+[####################] - 13s   240000/240000  0/s     http://10.10.214.102/content/attachment => Directory listing (add -e to scan)
+[####################] - 47m   240000/240000  84/s    http://10.10.214.102/content/as 
+[####################] - 47m   240000/240000  83/s    http://10.10.214.102/content/as/js 
+[####################] - 7s    240000/240000  0/s     http://10.10.214.102/content/as/lib => Directory listing (add -e to scan)

@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Thu Mar 17 10:48:54 2022 as: nmap -vvv -oN Results/nmap01.log 10.10.67.15
+Nmap scan report for 10.10.67.15
+Host is up, received syn-ack (0.23s latency).
+Scanned at 2022-03-17 10:48:55 EDT for 15s
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE       REASON
+80/tcp   open  http          syn-ack
+3389/tcp open  ms-wbt-server syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Mar 17 10:49:10 2022 -- 1 IP address (1 host up) scanned in 15.40 seconds

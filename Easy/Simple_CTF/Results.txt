@@ -1,0 +1,56 @@
+┌──(kali㉿kali)-[~/THM/Simple_CTF]
+└─$ rustscan -a 10.10.56.190
+.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
+| {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
+| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |
+`-' `-'`-----'`----'  `-'  `----'  `---' `-'  `-'`-' `-'
+The Modern Day Port Scanner.
+________________________________________
+: https://discord.gg/GFrQsGy           :
+: https://github.com/RustScan/RustScan :
+ --------------------------------------
+😵 https://admin.tryhackme.com
+
+[~] The config file is expected to be at "/home/kali/.rustscan.toml"
+[!] File limit is lower than default batch size. Consider upping with --ulimit. May cause harm to sensitive servers
+[!] Your file limit is very small, which negatively impacts RustScan's speed. Use the Docker image, or up the Ulimit with '--ulimit 5000'. 
+Open 10.10.56.190:21
+Open 10.10.56.190:80
+Open 10.10.56.190:2222
+[~] Starting Script(s)
+[>] Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+[~] Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-06 19:17 EST
+Initiating Ping Scan at 19:17
+Scanning 10.10.56.190 [2 ports]
+Completed Ping Scan at 19:17, 0.22s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 19:17
+Completed Parallel DNS resolution of 1 host. at 19:17, 0.00s elapsed
+DNS resolution of 1 IPs took 0.00s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 19:17
+Scanning 10.10.56.190 [3 ports]
+Discovered open port 21/tcp on 10.10.56.190
+Discovered open port 80/tcp on 10.10.56.190
+Discovered open port 2222/tcp on 10.10.56.190
+Completed Connect Scan at 19:17, 0.22s elapsed (3 total ports)
+Nmap scan report for 10.10.56.190
+Host is up, received syn-ack (0.22s latency).
+Scanned at 2022-03-06 19:17:10 EST for 0s
+
+PORT     STATE SERVICE      REASON
+21/tcp   open  ftp          syn-ack
+80/tcp   open  http         syn-ack
+2222/tcp open  EtherNetIP-1 syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+
+                                                                  
+
+
+
+ ######################################################################
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-06 20:15 EST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 3.37 seconds
+ ######################################################################

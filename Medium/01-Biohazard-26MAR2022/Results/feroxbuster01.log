@@ -1,0 +1,33 @@
+301      GET        9l       28w      311c http://10.10.40.57/images => http://10.10.40.57/images/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.40.57/images (Apache)
+200      GET       55l      429w    22374c http://10.10.40.57/images/maxresdefault.jpg.2
+200      GET       16l       86w      692c http://10.10.40.57/index.html
+200      GET      843l     4984w   207914c http://10.10.40.57/images/gee.png
+200      GET      300l     2143w    96533c http://10.10.40.57/images/maxresdefault.jpg.4
+200      GET      103l      471w    27890c http://10.10.40.57/images/reheader.jpg
+200      GET      669l     4169w   355166c http://10.10.40.57/images/Mainhall12.jpg
+200      GET      498l     2813w   128186c http://10.10.40.57/images/zombie
+200      GET      221l     1090w    71562c http://10.10.40.57/images/maxresdefault.jpg.1
+200      GET      385l     2084w   120715c http://10.10.40.57/images/maxresdefault.jpg
+200      GET      603l     3783w   185839c http://10.10.40.57/images/Mansion_front.jpg
+200      GET      592l     3348w   144444c http://10.10.40.57/images/esr.jpg
+200      GET      692l     3308w   184594c http://10.10.40.57/images/arr.jpg
+200      GET      379l     1956w    83188c http://10.10.40.57/images/maxresdefault.jpg.3
+200      GET      384l     2301w   113644c http://10.10.40.57/images/25-image21.jpg
+200      GET      321l      754w    44730c http://10.10.40.57/images/16-Image33-1.jpg
+200      GET       16l       86w      692c http://10.10.40.57/
+301      GET        9l       28w      308c http://10.10.40.57/css => http://10.10.40.57/css/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.40.57/css (Apache)
+200      GET     4402l    24773w  1244618c http://10.10.40.57/images/Vlcsnap-2015-01-26-08h54m37s183.png
+200      GET       61l       74w      870c http://10.10.40.57/css/login.css
+200      GET      495l     2855w   138861c http://10.10.40.57/images/maxresdefault.jpg.5
+403      GET        9l       28w      276c http://10.10.40.57/.php
+403      GET        9l       28w      276c http://10.10.40.57/.html
+301      GET        9l       28w      307c http://10.10.40.57/js => http://10.10.40.57/js/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.40.57/js (Apache)
+200      GET       21l       21w      385c http://10.10.40.57/js/login.js
+301      GET        9l       28w      310c http://10.10.40.57/attic => http://10.10.40.57/attic/
+200      GET        3l        7w       37c http://10.10.40.57/attic/unlock_door.php
+200      GET       22l       49w      592c http://10.10.40.57/attic/index.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.40.57/images/ (Apache)
+403      GET        9l       28w      276c http://10.10.40.57/server-status

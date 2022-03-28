@@ -1,0 +1,26 @@
+# Nmap 7.92 scan initiated Sun Mar 20 04:31:52 2022 as: nmap -p 22,80,8080,6500,6501 -sC -sV -A -oN ./Results/nmap02.log 10.10.82.48
+Nmap scan report for 10.10.82.48
+Host is up (0.24s latency).
+
+PORT     STATE  SERVICE    VERSION
+22/tcp   open   ssh        OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 d6:97:8c:b9:74:d0:f3:9e:fe:f3:a5:ea:f8:a9:b5:7a (DSA)
+|   2048 33:a4:7b:91:38:58:50:30:89:2d:e4:57:bb:07:bb:2f (RSA)
+|   256 21:01:8b:37:f5:1e:2b:c5:57:f1:b0:42:b7:32:ab:ea (ECDSA)
+|_  256 f6:36:07:3c:3b:3d:71:30:c4:cd:2a:13:00:b5:25:ae (ED25519)
+80/tcp   open   http       Apache httpd 2.4.7 ((Ubuntu))
+|_http-generator: Hugo 0.66.0
+|_http-title: Tony&#39;s Blog
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+6500/tcp closed boks
+6501/tcp closed boks_servc
+8080/tcp open   http       Apache Tomcat/Coyote JSP engine 1.1
+|_http-title: Welcome to JBoss AS
+| http-methods: 
+|_  Potentially risky methods: PUT DELETE TRACE
+|_http-server-header: Apache-Coyote/1.1
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar 20 04:32:08 2022 -- 1 IP address (1 host up) scanned in 15.65 seconds

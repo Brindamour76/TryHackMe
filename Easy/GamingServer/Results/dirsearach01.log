@@ -1,0 +1,41 @@
+
+  _|. _ _  _  _  _ _|_    v0.4.2                                                                                                                                
+ (_||| _) (/_(_|| (_| )                                                                                                                                         
+                                                                                                                                                                
+Extensions: gobuster01.log | HTTP method: GET | Threads: 30 | Wordlist size: 9009
+
+Output File: /home/kali/.dirsearch/reports/10.10.205.253/_22-03-17_10-06-15.txt
+
+Error Log: /home/kali/.dirsearch/logs/errors-22-03-17_10-06-15.log
+
+Target: http://10.10.205.253/
+
+[10:06:15] Starting: 
+[10:06:23] 403 -  278B  - /.ht_wsr.txt                                     
+[10:06:23] 403 -  278B  - /.htaccess.bak1
+[10:06:23] 403 -  278B  - /.htaccess.orig
+[10:06:23] 403 -  278B  - /.htaccess.sample
+[10:06:23] 403 -  278B  - /.htaccess.save
+[10:06:23] 403 -  278B  - /.htaccess_orig
+[10:06:23] 403 -  278B  - /.htaccess_sc
+[10:06:23] 403 -  278B  - /.htaccess_extra
+[10:06:23] 403 -  278B  - /.htaccessBAK
+[10:06:23] 403 -  278B  - /.htaccessOLD2
+[10:06:23] 403 -  278B  - /.htaccessOLD
+[10:06:23] 403 -  278B  - /.htm                                            
+[10:06:23] 403 -  278B  - /.html
+[10:06:23] 403 -  278B  - /.htpasswd_test
+[10:06:23] 403 -  278B  - /.htpasswds
+[10:06:23] 403 -  278B  - /.httr-oauth
+[10:06:26] 403 -  278B  - /.php                                            
+[10:07:04] 200 -    3KB - /index.html                                       
+[10:07:21] 200 -   33B  - /robots.txt                                       
+[10:07:22] 200 -  941B  - /secret/                                          
+[10:07:22] 301 -  315B  - /secret  ->  http://10.10.205.253/secret/         
+[10:07:22] 403 -  278B  - /server-status/                                   
+[10:07:22] 403 -  278B  - /server-status                                    
+[10:07:30] 200 -    1KB - /uploads/                                         
+[10:07:30] 301 -  316B  - /uploads  ->  http://10.10.205.253/uploads/       
+                                                                             
+Task Completed                                                        
+

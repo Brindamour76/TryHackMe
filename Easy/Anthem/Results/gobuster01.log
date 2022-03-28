@@ -1,0 +1,35 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.182.92
+[+] Method:                  GET
+[+] Threads:                 250
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/03/20 03:28:31 Starting gobuster in directory enumeration mode
+===============================================================
+/search               (Status: 200) [Size: 3418]
+/rss                  (Status: 200) [Size: 1873]
+/blog                 (Status: 200) [Size: 5394]
+/sitemap              (Status: 200) [Size: 1041]
+/archive              (Status: 301) [Size: 123] [--> /blog/]
+/categories           (Status: 200) [Size: 3541]            
+/Search               (Status: 200) [Size: 3468]            
+/authors              (Status: 200) [Size: 4115]            
+/tags                 (Status: 200) [Size: 3594]            
+/install              (Status: 302) [Size: 126] [--> /umbraco/]
+/RSS                  (Status: 200) [Size: 1873]               
+/Blog                 (Status: 200) [Size: 5394]               
+/Archive              (Status: 301) [Size: 123] [--> /blog/]   
+/SiteMap              (Status: 200) [Size: 1041]               
+/Rss                  (Status: 200) [Size: 1873]               
+/Categories           (Status: 200) [Size: 3541]               
+^C
+[!] Keyboard interrupt detected, terminating.
+===============================================================
+2022/03/20 03:44:09 Finished
+===============================================================

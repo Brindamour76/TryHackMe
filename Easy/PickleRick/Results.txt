@@ -1,0 +1,209 @@
+[1m[38;2;0;255;0m.[38;2;0;255;6m-[38;2;0;255;13m-[38;2;0;255;19m-[38;2;0;255;25m-[38;2;0;255;32m.[38;2;0;255;38m [38;2;0;255;45m.[38;2;0;255;51m-[38;2;0;255;57m.[38;2;0;255;64m [38;2;0;255;70m.[38;2;0;255;76m-[38;2;0;255;83m.[38;2;0;255;89m [38;2;0;255;96m.[38;2;0;255;102m-[38;2;0;255;108m-[38;2;0;255;115m-[38;2;0;255;121m-[38;2;0;255;127m.[38;2;0;255;134m.[38;2;0;255;140m-[38;2;0;255;147m-[38;2;0;255;153m-[38;2;0;255;159m.[38;2;0;255;166m [38;2;0;255;172m [38;2;0;255;178m.[38;2;0;255;185m-[38;2;0;255;191m-[38;2;0;255;198m-[38;2;0;255;204m-[38;2;0;255;210m.[38;2;0;255;217m [38;2;0;255;223m.[38;2;0;255;229m-[38;2;0;255;236m-[38;2;0;255;242m-[38;2;0;255;249m.[38;2;0;255;255m [38;2;0;249;255m [38;2;0;242;255m [38;2;0;236;255m.[38;2;0;230;255m-[38;2;0;223;255m-[38;2;0;217;255m.[38;2;0;210;255m [38;2;0;204;255m [38;2;0;198;255m.[38;2;0;191;255m-[38;2;0;185;255m.[38;2;0;179;255m [38;2;0;172;255m.[38;2;0;166;255m-[38;2;0;159;255m.[0m
+[38;2;0;255;0m|[38;2;0;255;6m [38;2;0;255;13m{[38;2;0;255;19m}[38;2;0;255;25m [38;2;0;255;32m [38;2;0;255;38m}[38;2;0;255;45m|[38;2;0;255;51m [38;2;0;255;57m{[38;2;0;255;64m [38;2;0;255;70m}[38;2;0;255;76m [38;2;0;255;83m|[38;2;0;255;89m{[38;2;0;255;96m [38;2;0;255;102m{[38;2;0;255;108m_[38;2;0;255;115m_[38;2;0;255;121m [38;2;0;255;127m{[38;2;0;255;134m_[38;2;0;255;140m [38;2;0;255;147m [38;2;0;255;153m [38;2;0;255;159m_[38;2;0;255;166m}[38;2;0;255;172m{[38;2;0;255;178m [38;2;0;255;185m{[38;2;0;255;191m_[38;2;0;255;198m_[38;2;0;255;204m [38;2;0;255;210m [38;2;0;255;217m/[38;2;0;255;223m [38;2;0;255;229m [38;2;0;255;236m_[38;2;0;255;242m_[38;2;0;255;249m_[38;2;0;255;255m}[38;2;0;249;255m [38;2;0;242;255m/[38;2;0;236;255m [38;2;0;230;255m{[38;2;0;223;255m}[38;2;0;217;255m [38;2;0;210;255m\[38;2;0;204;255m [38;2;0;198;255m|[38;2;0;191;255m [38;2;0;185;255m [38;2;0;179;255m`[38;2;0;172;255m|[38;2;0;166;255m [38;2;0;159;255m|[0m
+[38;2;0;255;0m|[38;2;0;255;6m [38;2;0;255;13m.[38;2;0;255;19m-[38;2;0;255;25m.[38;2;0;255;32m [38;2;0;255;38m\[38;2;0;255;45m|[38;2;0;255;51m [38;2;0;255;57m{[38;2;0;255;64m_[38;2;0;255;70m}[38;2;0;255;76m [38;2;0;255;83m|[38;2;0;255;89m.[38;2;0;255;96m-[38;2;0;255;102m.[38;2;0;255;108m_[38;2;0;255;115m}[38;2;0;255;121m [38;2;0;255;127m}[38;2;0;255;134m [38;2;0;255;140m|[38;2;0;255;147m [38;2;0;255;153m|[38;2;0;255;159m [38;2;0;255;166m [38;2;0;255;172m.[38;2;0;255;178m-[38;2;0;255;185m.[38;2;0;255;191m_[38;2;0;255;198m}[38;2;0;255;204m [38;2;0;255;210m}[38;2;0;255;217m\[38;2;0;255;223m [38;2;0;255;229m [38;2;0;255;236m [38;2;0;255;242m [38;2;0;255;249m [38;2;0;255;255m}[38;2;0;249;255m/[38;2;0;242;255m [38;2;0;236;255m [38;2;0;230;255m/[38;2;0;223;255m\[38;2;0;217;255m [38;2;0;210;255m [38;2;0;204;255m\[38;2;0;198;255m|[38;2;0;191;255m [38;2;0;185;255m|[38;2;0;179;255m\[38;2;0;172;255m [38;2;0;166;255m [38;2;0;159;255m|[0m
+[38;2;0;255;0m`[38;2;0;255;6m-[38;2;0;255;13m'[38;2;0;255;19m [38;2;0;255;25m`[38;2;0;255;32m-[38;2;0;255;38m'[38;2;0;255;45m`[38;2;0;255;51m-[38;2;0;255;57m-[38;2;0;255;64m-[38;2;0;255;70m-[38;2;0;255;76m-[38;2;0;255;83m'[38;2;0;255;89m`[38;2;0;255;96m-[38;2;0;255;102m-[38;2;0;255;108m-[38;2;0;255;115m-[38;2;0;255;121m'[38;2;0;255;127m [38;2;0;255;134m [38;2;0;255;140m`[38;2;0;255;147m-[38;2;0;255;153m'[38;2;0;255;159m [38;2;0;255;166m [38;2;0;255;172m`[38;2;0;255;178m-[38;2;0;255;185m-[38;2;0;255;191m-[38;2;0;255;198m-[38;2;0;255;204m'[38;2;0;255;210m [38;2;0;255;217m [38;2;0;255;223m`[38;2;0;255;229m-[38;2;0;255;236m-[38;2;0;255;242m-[38;2;0;255;249m'[38;2;0;255;255m [38;2;0;249;255m`[38;2;0;242;255m-[38;2;0;236;255m'[38;2;0;230;255m [38;2;0;223;255m [38;2;0;217;255m`[38;2;0;210;255m-[38;2;0;204;255m'[38;2;0;198;255m`[38;2;0;191;255m-[38;2;0;185;255m'[38;2;0;179;255m [38;2;0;172;255m`[38;2;0;166;255m-[38;2;0;159;255m'[0m
+[38;2;0;255;0mT[38;2;0;255;6mh[38;2;0;255;13me[38;2;0;255;19m [38;2;0;255;25mM[38;2;0;255;32mo[38;2;0;255;38md[38;2;0;255;45me[38;2;0;255;51mr[38;2;0;255;57mn[38;2;0;255;64m [38;2;0;255;70mD[38;2;0;255;76ma[38;2;0;255;83my[38;2;0;255;89m [38;2;0;255;96mP[38;2;0;255;102mo[38;2;0;255;108mr[38;2;0;255;115mt[38;2;0;255;121m [38;2;0;255;127mS[38;2;0;255;134mc[38;2;0;255;140ma[38;2;0;255;147mn[38;2;0;255;153mn[38;2;0;255;159me[38;2;0;255;166mr[38;2;0;255;172m.[0m[0m
+[1m[38;2;255;255;0m_[38;2;249;255;0m_[38;2;242;255;0m_[38;2;236;255;0m_[38;2;230;255;0m_[38;2;223;255;0m_[38;2;217;255;0m_[38;2;210;255;0m_[38;2;204;255;0m_[38;2;198;255;0m_[38;2;191;255;0m_[38;2;185;255;0m_[38;2;179;255;0m_[38;2;172;255;0m_[38;2;166;255;0m_[38;2;159;255;0m_[38;2;153;255;0m_[38;2;147;255;0m_[38;2;140;255;0m_[38;2;134;255;0m_[38;2;128;255;0m_[38;2;121;255;0m_[38;2;115;255;0m_[38;2;108;255;0m_[38;2;102;255;0m_[38;2;96;255;0m_[38;2;89;255;0m_[38;2;83;255;0m_[38;2;77;255;0m_[38;2;70;255;0m_[38;2;64;255;0m_[38;2;57;255;0m_[38;2;51;255;0m_[38;2;45;255;0m_[38;2;38;255;0m_[38;2;32;255;0m_[38;2;26;255;0m_[38;2;19;255;0m_[38;2;13;255;0m_[38;2;6;255;0m_[0m
+[38;2;255;255;0m:[38;2;249;255;0m [38;2;242;255;0mh[38;2;236;255;0mt[38;2;230;255;0mt[38;2;223;255;0mp[38;2;217;255;0ms[38;2;210;255;0m:[38;2;204;255;0m/[38;2;198;255;0m/[38;2;191;255;0md[38;2;185;255;0mi[38;2;179;255;0ms[38;2;172;255;0mc[38;2;166;255;0mo[38;2;159;255;0mr[38;2;153;255;0md[38;2;147;255;0m.[38;2;140;255;0mg[38;2;134;255;0mg[38;2;128;255;0m/[38;2;121;255;0mG[38;2;115;255;0mF[38;2;108;255;0mr[38;2;102;255;0mQ[38;2;96;255;0ms[38;2;89;255;0mG[38;2;83;255;0my[38;2;77;255;0m [38;2;70;255;0m [38;2;64;255;0m [38;2;57;255;0m [38;2;51;255;0m [38;2;45;255;0m [38;2;38;255;0m [38;2;32;255;0m [38;2;26;255;0m [38;2;19;255;0m [38;2;13;255;0m [38;2;6;255;0m:[0m
+[38;2;255;255;0m:[38;2;249;255;0m [38;2;242;255;0mh[38;2;236;255;0mt[38;2;230;255;0mt[38;2;223;255;0mp[38;2;217;255;0ms[38;2;210;255;0m:[38;2;204;255;0m/[38;2;198;255;0m/[38;2;191;255;0mg[38;2;185;255;0mi[38;2;179;255;0mt[38;2;172;255;0mh[38;2;166;255;0mu[38;2;159;255;0mb[38;2;153;255;0m.[38;2;147;255;0mc[38;2;140;255;0mo[38;2;134;255;0mm[38;2;128;255;0m/[38;2;121;255;0mR[38;2;115;255;0mu[38;2;108;255;0ms[38;2;102;255;0mt[38;2;96;255;0mS[38;2;89;255;0mc[38;2;83;255;0ma[38;2;77;255;0mn[38;2;70;255;0m/[38;2;64;255;0mR[38;2;57;255;0mu[38;2;51;255;0ms[38;2;45;255;0mt[38;2;38;255;0mS[38;2;32;255;0mc[38;2;26;255;0ma[38;2;19;255;0mn[38;2;13;255;0m [38;2;6;255;0m:[0m
+[38;2;255;255;0m [38;2;249;255;0m-[38;2;242;255;0m-[38;2;236;255;0m-[38;2;230;255;0m-[38;2;223;255;0m-[38;2;217;255;0m-[38;2;210;255;0m-[38;2;204;255;0m-[38;2;198;255;0m-[38;2;191;255;0m-[38;2;185;255;0m-[38;2;179;255;0m-[38;2;172;255;0m-[38;2;166;255;0m-[38;2;159;255;0m-[38;2;153;255;0m-[38;2;147;255;0m-[38;2;140;255;0m-[38;2;134;255;0m-[38;2;128;255;0m-[38;2;121;255;0m-[38;2;115;255;0m-[38;2;108;255;0m-[38;2;102;255;0m-[38;2;96;255;0m-[38;2;89;255;0m-[38;2;83;255;0m-[38;2;77;255;0m-[38;2;70;255;0m-[38;2;64;255;0m-[38;2;57;255;0m-[38;2;51;255;0m-[38;2;45;255;0m-[38;2;38;255;0m-[38;2;32;255;0m-[38;2;26;255;0m-[38;2;19;255;0m-[38;2;13;255;0m-[0m[0m
+Please contribute more quotes to our GitHub https://github.com/rustscan/rustscan
+
+[1;34m[~][0m The config file is expected to be at "/home/kali/.rustscan.toml"
+[1;31m[!][0m File limit is lower than default batch size. Consider upping with --ulimit. May cause harm to sensitive servers
+[1;31m[!][0m Your file limit is very small, which negatively impacts RustScan's speed. Use the Docker image, or up the Ulimit with '--ulimit 5000'. 
+Open 10.10.10.48:22
+Open 10.10.10.48:80
+[1;34m[~][0m Starting Script(s)
+[1;38;2;0;255;9m[>][0m Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+[1;34m[~][0m Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-12 10:10 EST
+Initiating Ping Scan at 10:10
+Scanning 10.10.10.48 [2 ports]
+Completed Ping Scan at 10:10, 0.22s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 10:10
+Completed Parallel DNS resolution of 1 host. at 10:10, 0.01s elapsed
+DNS resolution of 1 IPs took 0.01s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 10:10
+Scanning 10.10.10.48 [2 ports]
+Discovered open port 80/tcp on 10.10.10.48
+Discovered open port 22/tcp on 10.10.10.48
+Completed Connect Scan at 10:10, 0.22s elapsed (2 total ports)
+Nmap scan report for 10.10.10.48
+Host is up, received syn-ack (0.22s latency).
+Scanned at 2022-03-12 10:10:28 EST for 0s
+
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+80/tcp open  http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+
+ ##############################################
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-12 10:10 EST
+Nmap scan report for 10.10.10.48
+Host is up (0.22s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.6 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 70:62:df:e9:64:01:7d:17:44:fa:59:8c:53:42:ab:38 (RSA)
+|   256 a1:78:4e:ac:e3:b0:14:d6:9f:0d:98:5e:c4:0a:45:1f (ECDSA)
+|_  256 42:2e:6a:1a:84:34:7f:3e:c9:d1:cb:31:a9:8a:be:9b (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Rick is sup4r cool
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.73 seconds
+ ##############################################
+ ##############################################
+
+
+                                                                                                                                                    
+┌──(kali㉿kali)-[~/THM/PickleRick]
+└─$ sudo gobuster dir --wordlist=/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http://10.10.10.48 -t=250 2> /dev/null
+[sudo] password for kali: 
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.10.48
+[+] Method:                  GET
+[+] Threads:                 250
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/03/12 10:15:30 Starting gobuster in directory enumeration mode
+===============================================================
+/assets               (Status: 301) [Size: 311] [--> http://10.10.10.48/assets/]
+/server-status        (Status: 403) [Size: 299]                                 
+===============================================================
+2022/03/12 10:21:23 Finished
+===============================================================
+
+
+###############################################################
+
+
+┌──(kali㉿kali)-[~/THM/PickleRick]
+└─$ sudo nmap 10.10.10.48 -p 22,80 --script vuln 
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-12 10:22 EST
+Stats: 0:02:53 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 98.52% done; ETC: 10:24 (0:00:02 remaining)
+Stats: 0:02:53 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 98.52% done; ETC: 10:24 (0:00:02 remaining)
+Stats: 0:02:54 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 98.52% done; ETC: 10:24 (0:00:02 remaining)
+Stats: 0:02:54 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 98.52% done; ETC: 10:24 (0:00:02 remaining)
+Stats: 0:02:54 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 98.52% done; ETC: 10:25 (0:00:02 remaining)
+Stats: 0:02:54 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 98.52% done; ETC: 10:25 (0:00:02 remaining)
+Stats: 0:05:14 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:14 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:15 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:15 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:15 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:15 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:15 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:16 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:16 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:16 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:16 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Stats: 0:05:16 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 99.01% done; ETC: 10:27 (0:00:03 remaining)
+Nmap scan report for 10.10.10.48
+Host is up (0.22s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+| http-slowloris-check: 
+|   VULNERABLE:
+|   Slowloris DOS attack
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2007-6750
+|       Slowloris tries to keep many connections to the target web server open and hold
+|       them open as long as possible.  It accomplishes this by opening connections to
+|       the target web server and sending a partial request. By doing so, it starves
+|       the http server's resources causing Denial Of Service.
+|       
+|     Disclosure date: 2009-09-17
+|     References:
+|       http://ha.ckers.org/slowloris/
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| http-cookie-flags: 
+|   /login.php: 
+|     PHPSESSID: 
+|_      httponly flag not set
+| http-enum: 
+|   /login.php: Possible admin folder
+|_  /robots.txt: Robots file
+| http-fileupload-exploiter: 
+|   
+|     Couldn't find a file-type field.
+|   
+|_    Couldn't find a file-type field.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+| http-sql-injection: 
+|   Possible sqli for queries:
+|     http://10.10.10.48:80/assets/?C=N%3BO%3DD%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=M%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=S%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=D%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=M%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=S%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=N%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=D%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=M%3BO%3DD%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=S%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=N%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=D%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=M%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=N%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=D%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=S%3BO%3DD%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=D%3BO%3DD%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=M%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=S%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=N%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=N%3BO%3DD%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=M%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=S%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=D%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=N%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=M%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=S%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=D%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=M%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=S%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=N%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=D%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=M%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=S%3BO%3DA%27%20OR%20sqlspider
+|     http://10.10.10.48:80/assets/?C=N%3BO%3DA%27%20OR%20sqlspider
+|_    http://10.10.10.48:80/assets/?C=D%3BO%3DA%27%20OR%20sqlspider
+
+Nmap done: 1 IP address (1 host up) scanned in 323.11 seconds
+
+
+
