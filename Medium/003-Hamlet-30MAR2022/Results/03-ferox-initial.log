@@ -1,0 +1,9 @@
+200      GET     5302l    32230w   184147c http://10.10.146.165/hamlet.txt
+200      GET       39l       99w     1011c http://10.10.146.165/
+200      GET       39l       99w     1011c http://10.10.146.165/index.html
+200      GET        4l        5w       64c http://10.10.146.165/robots.txt
+200      GET       39l       99w     1011c http://10.10.146.165/index.html
+200      GET     5302l    32230w   184147c http://10.10.146.165/hamlet.txt
+200      GET       39l       99w     1011c http://10.10.146.165/
+200      GET        4l        5w       64c http://10.10.146.165/robots.txt
+403      GET       11l       26w      345c http://10.10.146.165/%7Echeckout%7E

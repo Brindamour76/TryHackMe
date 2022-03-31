@@ -1,0 +1,55 @@
+# Nmap 7.92 scan initiated Wed Mar 30 07:22:40 2022 as: nmap -p 20,21,22,80,501,8080,8000,1603,1564,50000 -sV -oN 04-nmap-moreports.log 10.10.146.165
+Nmap scan report for 10.10.146.165
+Host is up (0.23s latency).
+
+PORT      STATE  SERVICE      VERSION
+20/tcp    closed ftp-data
+21/tcp    open   ftp          vsftpd 3.0.3
+22/tcp    open   ssh          OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+80/tcp    open   http         lighttpd 1.4.45
+501/tcp   open   tcpwrapped
+1564/tcp  closed pay-per-view
+1603/tcp  closed picodbc
+8000/tcp  open   http         Apache httpd 2.4.48 ((Debian))
+8080/tcp  open   http-proxy
+50000/tcp closed ibm-db2
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.92%I=7%D=3/30%Time=62443D88%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,18F,"HTTP/1\.1\x20302\x20\r\nSet-Cookie:\x20JSESSIONID=ADA7C0F
+SF:BCE25D905205C62E4814D3917;\x20Path=/;\x20HttpOnly\r\nX-Content-Type-Opt
+SF:ions:\x20nosniff\r\nX-XSS-Protection:\x201;\x20mode=block\r\nCache-Cont
+SF:rol:\x20no-cache,\x20no-store,\x20max-age=0,\x20must-revalidate\r\nPrag
+SF:ma:\x20no-cache\r\nExpires:\x200\r\nX-Frame-Options:\x20SAMEORIGIN\r\nL
+SF:ocation:\x20http://localhost:8080/login\.html\r\nContent-Length:\x200\r
+SF:\nDate:\x20Wed,\x2030\x20Mar\x202022\x2011:22:48\x20GMT\r\nConnection:\
+SF:x20close\r\n\r\n")%r(HTTPOptions,18F,"HTTP/1\.1\x20302\x20\r\nSet-Cooki
+SF:e:\x20JSESSIONID=7FA4208F98E55607EC9A4179718771E2;\x20Path=/;\x20HttpOn
+SF:ly\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;\x20
+SF:mode=block\r\nCache-Control:\x20no-cache,\x20no-store,\x20max-age=0,\x2
+SF:0must-revalidate\r\nPragma:\x20no-cache\r\nExpires:\x200\r\nX-Frame-Opt
+SF:ions:\x20SAMEORIGIN\r\nLocation:\x20http://localhost:8080/login\.html\r
+SF:\nContent-Length:\x200\r\nDate:\x20Wed,\x2030\x20Mar\x202022\x2011:22:4
+SF:8\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(RTSPRequest,24E,"HTTP/1\.1
+SF:\x20400\x20\r\nContent-Type:\x20text/html;charset=utf-8\r\nContent-Lang
+SF:uage:\x20en\r\nContent-Length:\x20435\r\nDate:\x20Wed,\x2030\x20Mar\x20
+SF:2022\x2011:22:49\x20GMT\r\nConnection:\x20close\r\n\r\n<!doctype\x20htm
+SF:l><html\x20lang=\"en\"><head><title>HTTP\x20Status\x20400\x20\xe2\x80\x
+SF:93\x20Bad\x20Request</title><style\x20type=\"text/css\">body\x20{font-f
+SF:amily:Tahoma,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,\x20b\x20{color:whi
+SF:te;background-color:#525D76;}\x20h1\x20{font-size:22px;}\x20h2\x20{font
+SF:-size:16px;}\x20h3\x20{font-size:14px;}\x20p\x20{font-size:12px;}\x20a\
+SF:x20{color:black;}\x20\.line\x20{height:1px;background-color:#525D76;bor
+SF:der:none;}</style></head><body><h1>HTTP\x20Status\x20400\x20\xe2\x80\x9
+SF:3\x20Bad\x20Request</h1></body></html>")%r(FourOhFourRequest,1A4,"HTTP/
+SF:1\.1\x20500\x20\r\nContent-Type:\x20application/json;charset=UTF-8\r\nD
+SF:ate:\x20Wed,\x2030\x20Mar\x202022\x2011:22:49\x20GMT\r\nConnection:\x20
+SF:close\r\n\r\n{\"timestamp\":1648639370307,\"status\":500,\"error\":\"In
+SF:ternal\x20Server\x20Error\",\"exception\":\"org\.springframework\.secur
+SF:ity\.web\.firewall\.RequestRejectedException\",\"message\":\"The\x20req
+SF:uest\x20was\x20rejected\x20because\x20the\x20URL\x20contained\x20a\x20p
+SF:otentially\x20malicious\x20String\x20\\\"%2e\\\"\",\"path\":\"/nice%20p
+SF:orts%2C/Tri%6Eity\.txt%2ebak\"}");
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar 30 07:23:09 2022 -- 1 IP address (1 host up) scanned in 29.16 seconds

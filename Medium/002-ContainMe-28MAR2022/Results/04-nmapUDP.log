@@ -1,0 +1,1 @@
+# Nmap 7.92 scan initiated Mon Mar 28 04:53:45 2022 as: nmap -p 1-9000 -vvv -sU -oN ./Results/04-nmapUDP.log 10.10.63.147

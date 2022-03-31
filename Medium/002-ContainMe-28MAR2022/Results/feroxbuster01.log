@@ -1,0 +1,5 @@
+200      GET      375l      964w    10918c http://10.10.146.175/
+403      GET        9l       28w      278c http://10.10.146.175/.php
+403      GET        9l       28w      278c http://10.10.146.175/icons/
+301      GET        9l       28w      320c http://10.10.146.175/icons/small => http://10.10.146.175/icons/small/
+200      GET      166l      644w     5108c http://10.10.146.175/icons/README

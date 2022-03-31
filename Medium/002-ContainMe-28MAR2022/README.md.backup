@@ -30,12 +30,10 @@ Perform Basic **rustscan** scan and then a **nmap** scan to get (edited to allow
 >
 > 8022/tcp open   ssh           OpenSSH 7.7p1 Ubuntu 4ppa1+obfuscated (Ubuntu Linux; protocol 2.0)
 
-> `rustscan -a $IP | tee ./Results/rustscan01.log`  
-
+> `rustscan -a $IP | tee ./Results/rustscan01.log`
 [RustscanResults](Results/01-rust-initial.log)
 
 > `nmap -sC -sV -A -vvv $IP -p 22,80,8022,2222,6500,6501 -oN ./02-nmap-initial.log`  
-
 [NMAPResults](Results/02-nmap-initial.log)
 
 
@@ -57,8 +55,7 @@ Nothing there.
 ### Directories and Files
 Run **feroxbuster** and see what is returned:
 
-> `feroxbuster -u http://$IP/ -x php,pdf,txt,epub,html,cgi,css -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -o ./Results/feroxbuster01.log -t 200`  
-
+> `feroxbuster -u http://$IP/ -x php,pdf,txt,epub,html,cgi,css -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -o ./Results/feroxbuster01.log -t 200`
 [FeroxResults](Results/feroxbuster01.log)
 
 Whilst it picked up a few files. I think it stopped working part wasy through. will come back to this.
@@ -67,8 +64,7 @@ Whilst it picked up a few files. I think it stopped working part wasy through. w
 ### Nikto
 Hmmmm...not really used this much.
 
-> `nikto -h http://$IP`  
-
+> `nikto -h http://$IP`
 [Nikto](Results/06-nikto.txt)
 
 Not much there but does list some files to look at. *index.php* and *info.php*.
