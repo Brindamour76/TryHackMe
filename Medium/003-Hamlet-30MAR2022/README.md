@@ -29,7 +29,7 @@ Perform Basic **rustscan** scan:
 
 > `rustscan -a $IP | tee ./Results/01-rust-initial.log`
 
-[Rustscan](Results/01-rust-initial.log)
+[RustscanResultsFile](Results/01-rust-initial.log)
 
 
 ### Services
@@ -37,7 +37,7 @@ Time for **nmap**
 
 > `nmap -sV -sC -Pn -A -p $ports $IP -oN ./Results/02-nmap-initial.log`
 
-[Nmapresults](Results/02-nmap-initial.log)
+[NmapResultsFile](Results/02-nmap-initial.log)
 
 
 ---
@@ -55,7 +55,7 @@ Time for **feroxbuster**:
 
 > `feroxbuster -u http://$IP/ -x php,pdf,txt,epub,html,cgi,css -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -o ./Results/03-ferox-initial.log -t 200`
 
-[FeroxResults](Results/03-ferox-initial.log)
+[FeroxResultsFile](Results/03-ferox-initial.log)
 
 ### Robots.txt
 Contains a flag:
@@ -105,7 +105,7 @@ GET GUTINDEX.ALL [to get a listing of ALL books]
 ***
 ```
 
-Straight *anonymous8 login to **FTP** gives access to two text files. The first file is a password policy and the other is for firewall status.
+Straight *anonymous* login to **FTP** gives access to two text files. The first file is a password policy and the other is for firewall status.
 
 > `cat password-policy.md`
 
@@ -215,7 +215,7 @@ There is a section that can accept an uploaded file, will try *pentestmonkey*s *
 
 Found a *Users* sections and changed the password for the *admin* user. That was too easy. Logged in as *admin*.
 
-![WebAnnoAdmin](IUmages/05-webannoadmin.png)
+![WebAnnoAdmin](Images/05-webannoadmin.png)
 
 
 

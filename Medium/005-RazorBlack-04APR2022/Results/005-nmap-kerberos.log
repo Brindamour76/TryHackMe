@@ -1,0 +1,22 @@
+# Nmap 7.92 scan initiated Mon Apr  4 11:29:44 2022 as: nmap -p 88 --script=krb5-enum-users --script-args krb5-enum-users.realm=raz0rblack.thm,userdb=./users.txt -d -oN ../Results/005-nmap-kerberos.log 10.10.126.218
+--------------- Timing report ---------------
+  hostgroups: min 1, max 100000
+  rtt-timeouts: init 1000, min 100, max 10000
+  max-scan-delay: TCP 1000, UDP 1000, SCTP 1000
+  parallelism: min 0, max 0
+  max-retries: 10, host-timeout: 0
+  min-rate: 0, max-rate: 0
+---------------------------------------------
+Nmap scan report for 10.10.126.218
+Host is up, received conn-refused (0.24s latency).
+Scanned at 2022-04-04 11:29:44 EDT for 1s
+
+PORT   STATE SERVICE      REASON
+88/tcp open  kerberos-sec syn-ack
+| krb5-enum-users: 
+| Discovered Kerberos principals
+|     xyan1d3@raz0rblack.thm
+|_    administrator@raz0rblack.thm
+
+Read from /usr/bin/../share/nmap: nmap-payloads nmap-services.
+# Nmap done at Mon Apr  4 11:29:45 2022 -- 1 IP address (1 host up) scanned in 1.60 seconds
